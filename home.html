@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <title>Restaurant</title>
+        <style>
+
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            .blackbox{
+                height: 20%;
+                background-color: black;
+                width: 100%;
+                margin: 0%;
+            }
+
+            .text{
+                color: greenyellow;
+                font-size: 38px;
+                margin-left: 8%;
+                float: left;
+
+            }
+
+            .options{
+                background-color: black;
+                height: 100%;
+                margin-left: 40%;
+                margin-top: 0%;
+            }
+
+            .list{
+                font-size: 16px;
+                font-weight: bold;
+                margin-left: 5%;
+                padding-top: 7%;
+                list-style-type: none;
+                float: left;
+            }
+
+            .link{
+                text-decoration: none;
+                color: white
+            }
+
+            .img{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                border: 2px solid white;
+            }
+
+            .order{
+                height: 65px;
+                width: 65px;
+                border-radius: 50%;
+            }
+
+            .try{
+                text-align: center;
+                width: 33%;
+                height: 100%;
+                float: left;
+                margin-top: 0.5%;
+                position: relative;
+            }
+
+            .try1{
+                position: relative;
+            }
+
+            .parallax{
+                background-image: url("parallaximage.jpg");
+                margin-top: 0.5%;
+                min-height: 70%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .giftbox {
+                display:block;
+                border:1px solid white;
+                background-color: red;
+                color: white;
+                text-align: center;
+                font-size: 22px;
+                letter-spacing: 1.5px;
+                padding-top: 9px;
+                height: 35px;
+                width: 200px;
+                margin-top: 100px;
+                margin-left: 100px;
+                text-decoration: none;
+            }
+            li a.giftbox:hover{
+                background-color: white;
+                color: black;
+            }
+
+            .dropdown {
+                overflow: hidden;
+                list-style-type: none;
+                float: left;
+                font-weight: bold;
+                margin-left: 5%;
+                padding-top: 7%;
+                list-style-type: none;
+                font-size: 16px;
+            }
+
+            .dropdown .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0%;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="blackbox">
+            <p class="text"><a class="link" href="home.html" style="color: yellow"><b>A.I. RESTAURANT</b></a></p>
+            <div class="options">
+                <li class="list" style="margin-left: 10%"><a class="link" href="menu.html">MENU</a></li>
+                <div class="dropdown">
+                    <li class="dropbtn">LOGIN</li>
+                        <div class="dropdown-content">
+                          <a href="login.php">User Login</a>
+                          <a href="mlogin.php">Manager Login</a>
+                        </div>
+                </div>
+                <li class="list"><a class="link" href="contact.html">CONTACT US</a></li>
+                <li class="list" style="padding-top: 6%;margin-left: 4%;"><img src="twitter.png" class="img"></li>
+                <li class="list" style="padding-top: 6%;margin-left: 2%;"><img src="facebook.jpg" class="img"></li>
+                <li class="list" style="padding-top: 6%;margin-left: 2%;"><img src="instagram.png" class="img"></li>
+                <li class="list" style="padding-top: 6%;margin-left: 2%;"><img src="youtube.png" class="img"></li>
+
+            </div>
+        </div>
+
+        <div class="try1">
+            <div style="position: absolute;font-size: 70px;margin-top: 15%;color: white;margin-left: 10%;margin-right: 10%;text-align: center"><b><i>"Where the food's as good as the Engineer's"</i></b></div>
+            <img src="image1.jpg" style="width: 100%;height: 100%;">
+
+        </div>
+
+        <div style="height: 40%;width: 100%">
+            <div class="try">
+                <div style="position: absolute;margin-top: 20%;text-align: center;color: white;font-size: 28px;margin-left: 10%"><b><i>It's Good Mood Food</i></b></div>
+                <img src="image2.jpg" style="width: 100%;height: 100%">
+            </div>
+
+            <div class="try" style="margin-left: 0.5%;">
+                    <div style="position: absolute;margin-top: 20%;text-align: center;color: white;font-size: 28px;margin-left: 10%"><b><i>Where the food's the star</i></b></div>
+                <img src="image4.jpg" style="width: 100%;height: 100%;">
+            </div>
+
+            <div class="try" style="margin-left: 0.5%;">
+                    <div style="position: absolute;margin-top: 20%;text-align: center;color: white;font-size: 28px;margin-left: 10%"><b><i>When you're here, you're family</i></b></div>
+                <img src="image5.jpg" style="width: 100%;height: 100%;">
+            </div>
+        </div>
+        <div style="margin-top: 1%;height: 70%;width: 100%;">
+            <img src="storyimage.jpg" style="margin-top: 5%;margin-left: 7%;height: 70%;width: 20%;float: left;">
+            <h1 style="padding-top: 5%;padding-left: 30%;margin: 0%;margin-right: 20%;color: black">A STORY OF LOVE, PASSION AND LOADS & LOADS OF PIZZA</h1>
+            <p style="padding-left: 30%;color: black;margin-right: 10%;font-size: 16px;">This is just your typical Boy meets Girl, Boy falls in love with girl, Boy and Girl join forces as master entrpreneur and master restauranteur to create India's most loved eatery story.Their vision was to build a restaurant that would serve only the most mouthwatering Italian inspired meals made with love and the finest, freshest incredients.</p>
+            <p style="padding-left: 30%;color: black;margin-right: 10%;font-size: 16px;">With artisanal wood-fired pizzas, sumptuous pastas and gourment salads, it was not long before the Col'Cacchio magic spread far and wide.And now, 26 years later, with restaurants all over the country, the mere mention of Col'Cacchio sends taste buds into a wild frenzy.It's more than a menu.It's a celebration.A journey.A story, 26 years in the making, of love, passion, adventure and loads and loads of pizza.</p>
+        </div>
+
+        <div class="parallax">
+            <div style="color: white;font-size: 58px;text-align: center;padding-top: 9%"><b>COME HUNGRY.</b></div>
+            <div style="color: white;font-size: 58px;text-align: center;padding-top: 2%;"><b>LEAVE HAPPY.</b></div>
+        </div>
+
+        <footer style="position: relative;margin-top: 00px;background-color: black;height: 300px;">
+                <div style="float: left;margin-left: 50px;padding-top: 50px;height: 200px;width: 200px;"><img src="footerimage.jpg" style="height: 180px;width: 200px;border: 4px solid white"></div>
+
+                <div style="float: left;background-color: black;height: 200px;width: 250px;margin-left: 30px;padding-top:50px;">
+                    <p style="color: white;font-size: 28px;margin-top: 0px;"><b>A.I. Restaurant</b></p>
+                    <p style="color: white;font-size: 14px;">- <a href style="color: white;">Map & Directions</a></p>
+                    <p style="color: white;font-size: 14px;">- <a href style="color: white;">More Contact Information</a></p>
+                    <p style="color: white;font-size: 14px;">- <a href style="color: white;">Ratings</a></p>
+                </div>
+
+                <div style="float: left;background-color: black;height: 200px;width: 650px;margin-left: 30px;margin-top:40px;">
+                    <li style="float: left;list-style-type: none;margin-left: 30px;"><img src="facebook.jpg" style="height: 60px;width: 60px;border-radius: 50%;border: 2px solid white"></li>
+                    <li style="float: left;list-style-type: none;margin-left: 30px;"><img src="twitter.png" style="height: 60px;width: 60px;border-radius: 50%;border: 2px solid white"></li>
+                    <li style="float: left;list-style-type: none;margin-left: 30px;"><img src="youtube.png" style="height: 60px;width: 60px;border-radius: 50%;border: 2px solid white"></li>
+                    <li style="float: left;list-style-type: none;margin-left: 30px;"><img src="in.png" style="height: 60px;width: 60px;border-radius: 50%;border: 2px solid white"></li>
+                    <li style="float: left;list-style-type: none;margin-left: 30px;"><img src="instagram.png" style="height: 60px;width: 60px;border-radius: 50%;border: 2px solid white"></li>
+                    <li style="float: left;list-style-type: none;margin-left: 30px;"><img src="apple.png" style="height: 60px;width: 60px;border-radius: 50%;border: 2px solid white"></li>
+                    <li><a class="giftbox" href=""><b>Make a Gift</b></a></li>
+                </div>
+            </footer>
+
+            <footer style="position: relative;margin-top: 0px;background-color: rgb(71, 70, 70);height: 100px;">
+                <li style="float: left;list-style-type: none;margin-top: 10px;margin-left: 50px;"><a href="" style="color: white;font-size: 14px;">Site Map</a></li>
+                <li style="float: left;list-style-type: none;margin-top: 10px;margin-left: 50px;"><a href="" style="color: white;font-size: 14px;">Jobs</a></li>
+                <li style="float: left;list-style-type: none;margin-top: 10px;margin-left: 50px;"><a href="" style="color: white;font-size: 14px;">Restaurants</a></li>
+                <li style="float: left;list-style-type: none;margin-top: 10px;margin-left: 50px;"><a href="" style="color: white;font-size: 14px;">Trademarks</a></li>
+                <li style="float: left;list-style-type: none;margin-top: 10px;margin-left: 50px;"><a href="" style="color: white;font-size: 14px;">Privacy Policy</a></li>
+                <br>
+                <br>
+                <p style="margin-left: 50px;font-size: 12px;color: white">Copyright &#169; Developers of this Website</p>
+
+            </footer>
+
+
+    </body>
+</html>

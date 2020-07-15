@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <title>Contact</title>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        .card {
+            float: left;
+            margin-top: 4%;
+            margin-left: 4%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 20%;
+            height: 80%;
+            position: relative;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 white;
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+
+        .try{
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        .black{
+            background-color: black;
+            height: 100%;
+            margin-top: 0.5%;
+        }
+
+        .blackbox{
+                height: 20%;
+                background-color: black;
+                width: 100%;
+                margin: 0%;
+                position: relative;
+            }
+
+            .text{
+                color: greenyellow;
+                font-size: 38px;
+                margin-left: 8%;
+                float: left;
+
+            }
+
+            .options{
+                background-color: black;
+                height: 100%;
+                margin-left: 40%;
+                margin-top: 0%;
+            }
+
+            .img{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                border: 2px solid white;
+            }
+
+
+            .list{
+                font-size: 16px;
+                font-weight: bold;
+                margin-left: 5%;
+                padding-top: 7%;
+                list-style-type: none;
+                float: left;
+            }
+
+            .link{
+                text-decoration: none;
+                color: white
+            }
+
+            .dropdown {
+                overflow: hidden;
+                list-style-type: none;
+                float: left;
+                font-weight: bold;
+                margin-left: 5%;
+                padding-top: 7%;
+                list-style-type: none;
+                font-size: 16px;
+            }
+
+            .dropdown .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0%;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+    </style>
+    <body>
+
+        <div class="blackbox">
+            <p class="text"><a class="link" href="home.html" style="color: yellow"><b>A.I. RESTAURANT</b></a></p>
+            <div class="options">
+                <li class="list" style="margin-left: 10%"><a class="link" href="menu.html">MENU</a></li>
+                <div class="dropdown">
+                    <li class="dropbtn">LOGIN</li>
+                        <div class="dropdown-content">
+                            <a href="login.php">User Login</a>
+                            <a href="mlogin.php">Manager Login</a>
+                        </div>
+                </div>
+                <li class="list"><a class="link" href="contact.html">CONTACT US</a></li>
+                <li class="list" style="padding-top: 6%;margin-left: 4%;"><img src="twitter.png" class="img"></li>
+                <li class="list" style="padding-top: 6%;margin-left: 2%;"><img src="facebook.jpg" class="img"></li>
+                <li class="list" style="padding-top: 6%;margin-left: 2%;"><img src="instagram.png" class="img"></li>
+                <li class="list" style="padding-top: 6%;margin-left: 2%;"><img src="youtube.png" class="img"></li>
+
+            </div>
+        </div>
+    
+        <div class="black">
+        <div class="card">
+            <img src="avatar.jpeg" alt="Avatar" style="width:100%;height: 70%;">
+            <div class="container">
+                <h4 class="try">AKSHAY KALE</h4> 
+                <p class="try">Co-Founder</p> 
+            </div>
+        </div>
+
+        <div class="card">
+                <img src="avatar.jpeg" alt="Avatar" style="width:100%;height: 70%;">
+                <div class="container">
+                    <h4 class="try">KAUSHAL BHANDARI</h4> 
+                    <p class="try">Co-Founder</p> 
+                </div>
+        </div>
+
+        <div class="card">
+                <img src="avatar.jpeg" alt="Avatar" style="width:100%;height: 70%;">
+                <div class="container">
+                    <h4 class="try">OMKAR WANAVE</h4> 
+                    <p class="try">Co-Founder</p> 
+                </div>
+        </div>
+
+        <div class="card">
+                <img src="avatar.jpeg" alt="Avatar" style="width:100%;height: 70%;">
+                <div class="container">
+                    <h4 class="try">PRATHVIRAJ WALKE</h4> 
+                    <p class="try">Co-Founder</p> 
+                </div>
+        </div>
+        </div>
+              
+    </body>
+</html>

@@ -1,0 +1,263 @@
+<html>
+    <head>
+        <title>MENU</title>
+        <style>
+
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            .blackbox{
+                height: 20%;
+                background-color: black;
+                width: 100%;
+                margin: 0%;
+            }
+
+            .text{
+                color: greenyellow;
+                font-size: 38px;
+                margin-left: 8%;
+                float: left;
+
+            }
+
+            .options{
+                background-color: black;
+                height: 100%;
+                margin-left: 40%;
+                margin-top: 0%;
+            }
+
+            .list{
+                font-size: 16px;
+                font-weight: bold;
+                margin-left: 5%;
+                padding-top: 7%;
+                list-style-type: none;
+                float: left;
+            }
+
+            .link{
+                text-decoration: none;
+                color: white
+            }
+
+            .img{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                border: 2px solid white;
+            }
+
+            .order{
+                height: 65px;
+                width: 65px;
+                border-radius: 50%;
+            }
+
+            .parallax{
+                background-image: url("image1.jpg");
+                min-height: 55%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 0.5%
+            }
+
+            .parallax1{
+                min-height: 30%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 0%;
+            }
+
+            .b1{
+                margin-left: 13%;
+                margin-top: 3%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 28px;
+                font-weight: bold;
+                float: left;
+                color: white;
+            }
+
+            .h{
+                text-align: center;
+                font-size:60px;
+                padding-top:50px;
+                color: white;
+            }
+
+            .items{
+                background-image: url('try.png');
+                height:60%;
+                margin-top: 0.5%;
+                margin-bottom: 0%;
+            }
+
+            .dropdown {
+                overflow: hidden;
+                list-style-type: none;
+                float: left;
+                font-weight: bold;
+                margin-left: 5%;
+                padding-top: 7%;
+                list-style-type: none;
+                font-size: 16px;
+            }
+
+            .dropdown .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0%;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+      <div class="blackbox">
+          <p class="text"><a class="link" href="home.html" style="color: yellow"><b>A.I. RESTAURANT</b></a></p>
+          <div class="options">
+              <li class="list" style="margin-left: 10%"><a class="link" href="menu.html">MENU</a></li>
+              <div class="dropdown">
+                  <li class="dropbtn">LOGIN</li>
+                      <div class="dropdown-content">
+                        <a href="login.php">User Login</a>
+                        <a href="mlogin.php">Manager Login</a>
+                      </div>
+              </div>
+              <li class="list"><a class="link" href="contact.html">CONTACT US</a></li>
+              <li class="list" style="padding-top: 6%;margin-left: 4%;"><img src="twitter.png" class="img"></li>
+              <li class="list" style="padding-top: 6%;margin-left: 2%;"><img src="facebook.jpg" class="img"></li>
+              <li class="list" style="padding-top: 6%;margin-left: 2%;"><img src="instagram.png" class="img"></li>
+              <li class="list" style="padding-top: 6%;margin-left: 2%;"><img src="youtube.png" class="img"></li>
+
+          </div>
+      </div>
+
+        <div class="parallax">
+            <div style="color: white;font-size: 58px;text-align: center;padding-top: 5%"><b>COME HUNGRY.</b></div>
+            <div style="color: white;font-size: 58px;text-align: center;padding-top: 2%;"><b>LEAVE HAPPY.</b></div>
+        </div>
+
+        <div class="parallax1" style="background-image: url('bf1.jpg')"><h1 class="h">BREAKFAST</h1></div>
+        <div class="items">
+            <div class="b1">
+                <p>Sandwich................50RS</p>
+                <p>Omlete.....................60RS</p>
+                <p>Poha.........................30RS</p>
+                <p>Upma.......................30RS</p>
+            </div>
+
+            <div class="b1">
+                <p>Uttappa................50RS</p>
+                <p>Sheera..................30RS</p>
+                <p>Paratha................40RS</p>
+                <p>Masala dosa.........80RS</p>
+            </div>
+        </div>
+
+        <div class="parallax1" style="background-image: url('burger.jpg')"><h1 class="h">BURGERS</h1></div>
+        <div class="items">
+            <div class="b1">
+                <p>Veg Burger...............50RS</p>
+                <p>Cheese Burger..........60RS</p>
+                <p>2 X Cheese Burger....80RS</p>
+                <p>Paneer Burger..........70RS</p>
+            </div>
+
+            <div class="b1">
+                <p>Panner Cheese Burger.....80RS</p>
+                <p>Turkey Burger.................80RS</p>
+                <p>Black Bean Burger...........60RS</p>
+                <p>Special Burger.................90RS</p>
+            </div>
+        </div>
+
+            <div class="parallax1" style="background-image: url('pizza.jpg')"><h1 class="h">PIZZA</h1></div>
+            <div class="items">
+                <div class="b1">
+                    <p>Veg Pizza................50RS</p>
+                    <p>Cheese Pizza...........60RS</p>
+                    <p>Paneer Pizza...........70RS</p>
+                    <p>Corn Pizza.............. 70RS</p>
+                </div>
+
+                <div class="b1">
+                    <p>Margerita Pizza..............80RS</p>
+                    <p>Paneer Cheese Pizza.......90RS</p>
+                    <p>Italian Pizza...................80RS</p>
+                    <p>Onion Cheese Pizza........70RS</p>
+                </div>
+            </div>
+
+            <div class="parallax1" style="background-image: url('sandwitch.jpg');"><h1 class="h">SANDWICH</h1></div>
+            <div class="items">
+                <div class="b1">
+                    <p>Veg Sandwich...............50RS</p>
+                    <p>Veg Cheese Sandwich...60RS</p>
+                    <p>Grilled Sandwich..........70RS</p>
+                    <p>Napolian Sandwich.......60RS</p>
+                </div>
+
+                <div class="b1">
+                    <p>Classical Sandwitch........70RS</p>
+                    <p>Garlic Sandwich..............50RS</p>
+                    <p>Chipotle Sandwich..........70RS</p>
+                    <p>Italian Sandwich.............80RS</p>
+                </div>
+            </div>
+
+            <div class="parallax1" style="background-image: url('coffee.jpg')"><h1 class="h">COFFEE</h1></div>
+            <div class="items">
+                <div class="b1">
+                    <p>Cappuccino...............50RS</p>
+                    <p>Latte.........................60RS</p>
+                    <p>Mocha.......................70RS</p>
+                    <p>Espresso...................50RS</p>
+                </div>
+
+                <div class="b1">
+                    <p>Americano.....................60RS</p>
+                    <p>Cold Coffee.....................40RS</p>
+                    <p>Cold Coffee with Crush...60RS</p>
+                    <p>Cocoa..............................30RS</p>
+                </div>
+            </div>
+        </body>
+</html>
